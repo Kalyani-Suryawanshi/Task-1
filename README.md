@@ -1,12 +1,11 @@
 # Task-1
 
-I built a Library Management Database to organize books, authors, members, and borrowing records.
-The goal was to reduce redundancy, ensure data integrity, and make queries like “Which member borrowed which book?” easy.
+I developed a Library Management Database to effectively manage books, authors, 
+members, and borrowing records. The primary objectives were to minimize redundancy, 
+maintain data integrity, and facilitate straightforward queries, 
+such as “Which member borrowed which book?”
 
-🔧 How it Works
-
-Designed normalized tables (Books, Authors, Members, Borrow, Book_Author).
-
-Applied BCNF for efficiency and integrity.
-
-Created an ER Diagram to visualize relationships.
+How It Works 
+- Designed normalized tables: Books, Authors, Members, Borrow, and Book_Author.  
+- Implemented BCNF to enhance efficiency and ensure data integrity.  
+- Created an ER Diagram to illustrate the relationships among the entities.
