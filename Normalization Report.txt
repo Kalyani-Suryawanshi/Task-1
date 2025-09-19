@@ -1,0 +1,22 @@
+Normalization Report
+
+1NF (First Normal Form) 
+- Data is organized into distinct tables: Books, Authors, Members, Book_Author, and Borrow.  
+- All attributes are atomic, meaning there are no repeating groups.  
+
+
+2NF (Second Normal Form)  
+- Each table has a designated primary key.  
+- All non-key attributes are fully dependent on the primary key, with no partial dependencies present.  
+
+3NF (Third Normal Form)
+- There are no transitive dependencies; non-key attributes depend solely on the primary key.  
+- For instance, in the Books table, the Publisher attribute depends only on BookID, not through another attribute.  
+
+
+BCNF (Boyce-Codd Normal Form)  
+- All functional dependencies have candidate keys on the left side.  
+- ISBN in the Books table and Email in the Members table are unique, confirming their status as valid candidate keys.  
+
+Conclusion  
+The schema is fully normalized up to BCNF, which ensures minimal redundancy, robust data integrity, and efficient querying for books, authors, members, and borrowing records.
